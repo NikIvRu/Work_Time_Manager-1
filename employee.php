@@ -9,7 +9,8 @@ $last_activity=$_POST["Last Activity"];
 
 if($e_id!="" && $e_password!="" && $e_fname!="" && $e_lname!="" && $position!=""
 	&& $last_activity!=""){
-	fjkfjjfjf
+	
+	$xml = SimpleXML_Load_File("employee.xml");
 	}
 
 ?>
