@@ -14,6 +14,10 @@ if($e_id!="" && $e_password!="" && $e_fname!="" && $e_lname!="" && $position!=""
 	
 	$sxe = new SimpleXMLElement($xml->asXML());
 	$employee = $sxe->addChild("EMPLOYEE");
+	
+	$EMPLOYEE->addChild("id",$e_id);
+	$EMPLOYEE->addChild("password" , $e_password);
+	
 	}
 
 ?>
