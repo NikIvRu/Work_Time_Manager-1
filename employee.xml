@@ -1,11 +1,10 @@
 
 <employees>
    <employee>
-		<><>
-		<><>
-		<><>
-		<><>
-		<><>
-	
+		<id></id>
+		<password></password>
+		<fname></fname>
+		<lname></lname>
+		<last activity></last activity>
    </employee>
 </employee>
