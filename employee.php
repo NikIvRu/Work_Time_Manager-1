@@ -11,6 +11,9 @@ if($e_id!="" && $e_password!="" && $e_fname!="" && $e_lname!="" && $position!=""
 	&& $last_activity!=""){
 	
 	$xml = SimpleXML_Load_File("employee.xml");
+	
+	$sxe = new SimpleXMLElement($xml->asXML());
+	$employee = $sxe->addChild("EMPLOYEE");
 	}
 
 ?>
