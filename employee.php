@@ -17,6 +17,9 @@ if($e_id!="" && $e_password!="" && $e_fname!="" && $e_lname!="" && $position!=""
 	
 	$EMPLOYEE->addChild("id",$e_id);
 	$EMPLOYEE->addChild("password" , $e_password);
+	$EMPLOYEE= $employee->addChild("lname",$e_lname);
+	$EMPLOYEE->addChild("position" , $position);
+	$EMPLOYEE->addChild("last activity , $last_activity);	
 	
 	}
 
