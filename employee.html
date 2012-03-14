@@ -1,0 +1,35 @@
+
+<html> 
+<head> 
+<title>Example</title> 
+</head> 
+<body> 
+
+
+<form action="index.php" method="post">
+
+<h2 align="center">Employee<h2>
+
+<p align="center">
+
+<table>
+	<tr> <th>ID:</th> <th> <input type="text" name="e_id"/> </th> </tr>
+	<tr> <th>Password:</th> <th> <input type="text" name="e_password"/> </th> </tr>
+	<tr> <th>First Name:</th> <th> <input type="text" name="e_fname"/> </th> </tr>
+	<tr> <th>Last Name:</th> <th> <input type="text" name="e_lname"/> </th> </tr>
+	<tr> <th>Position:</th> <th> <input type="text" name="e_position"/> </th> </tr>
+</table>
+</p>
+<h3 align="center"> Warning:You cannot modify data once saved</h3>
+<p align="center">
+<a> <input type= "submit" value="Save"/> </a>
+	
+</p>
+</form>
+
+<p align="center">	
+
+<?php include("employee.php"); ?>
+
+</body> 
+</html>
